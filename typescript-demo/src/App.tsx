@@ -1,15 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { FormComponent } from './components/FormComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Jiangle is ready to learn React.
+          Jiangle's React demo.
         </p>
       </header>
+      <body>
+        <div>
+          <FormComponent formTitle="Personal Info"/>
+        </div>
+      </body>
     </div>
   );
 }
